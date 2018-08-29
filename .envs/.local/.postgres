@@ -1,0 +1,8 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=hangout
+POSTGRES_USER=tushantkhatiwada
+POSTGRES_PASSWORD=tushant123
+DATABASE_URL=postgres://tushantkhatiwada:tushant123@localhost:5432/hangout

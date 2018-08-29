@@ -1,0 +1,19 @@
+# General
+# ------------------------------------------------------------------------------
+export USE_DOCKER=yes
+
+# Email
+# DJANGO_EMAIL_BACKEND
+
+# Redis
+# ------------------------------------------------------------------------------
+export REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+# CELERY_BROKER_URL=
+# CELERY_RESULT_BACKEND = 'django-cache'
+
+# Flower
+export CELERY_FLOWER_USER=debug
+export CELERY_FLOWER_PASSWORD=debug
